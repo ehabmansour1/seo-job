@@ -169,4 +169,11 @@ body {
 
 .course-illustration circle {
   animation: pulse 3s infinite;
+}/* Ensure elements are visible on mobile */
+@media (max-width: 768px) {
+  [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
 }
